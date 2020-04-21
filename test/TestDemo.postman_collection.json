@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "6a29eaa1-6bfa-4221-bf4a-fde331bcfe49",
 		"name": "TestDemo",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -10,30 +10,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": ""
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "https://jsonplaceholder.typicode.com/posts/1",
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/posts/1",
-					"protocol": "https",
-					"host": [
-						"jsonplaceholder",
-						"typicode",
-						"com"
-					],
-					"path": [
-						"posts",
-						"1"
-					]
-				}
+				"url": ""
 			},
 			"response": []
 		}
