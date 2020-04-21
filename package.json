@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "project for postman",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postman-api-test": "newman run test/TestDemo.postman_collection.json"
+  },
+  "author": "Rahul",
+  "dependencies": {
+    "newman": "^5.0.0"
+  }
+}
